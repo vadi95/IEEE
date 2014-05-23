@@ -3,9 +3,10 @@
 
 using namespace std;
 
+int t[100002]={};
+
 long long int merge(int b[],int l,int mid,int u)
 {
-	int t[100002]={};
 	long long int in=0,i;
 	int k=0;
 	int j=mid;
@@ -50,7 +51,7 @@ int main()
 	scanf("%d",&n);
 	
 	for(int i=0;i<n;i++)
-		scanf("%d",b[i]);
+		scanf("%d",&b[i]);
 		
 	printf("No of inversions: %lld",ms(b,0,n-1));
 
