@@ -40,7 +40,7 @@ int main() {
 		scanf("%s",s);
 		for(int i=0;i<strlen(s)/2;i++)
 			swap(s[i],s[strlen(s)-1-i]);
-		if(binary_search(fib.begin(),fib.end(),s))
+		if( binary_search(fib.begin(),fib.end(),s) )
 			printf("YES\n");
 		else
 			printf("NO\n");
