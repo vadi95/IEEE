@@ -17,6 +17,6 @@ int main() {
 				ans[i][j]=1+ans[i-1][j-1];
 			else
 				ans[i][j]=max(ans[i-1][j],ans[i][j-1]);
-	printf("%d\n",ans[m][n]);
+	printf("%d\n",ans[m][n] );
 	return 0;
 }
