@@ -53,7 +53,7 @@ int main()
 	for(int i=0;i<n;i++)
 		scanf("%d",&b[i]);
 		
-	printf("No of inversions: %lld",ms(b,0,n-1));
+	printf("No of inversions: %lld",ms(b,0,n-1) );
 
 	return 0;
 }
